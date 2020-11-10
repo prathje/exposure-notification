@@ -1,0 +1,27 @@
+{
+    "name": "exposure-notification",
+    "description": "Exposure Notification protocol implementation based on MbedTLS",
+    "frameworks": "*",
+    "keywords": "exposure notification, contact tracing",
+    "platforms": "*",
+    "version": "0.1",
+    "license": "Apache-2.0",
+    "authors":
+    [
+        {
+            "name": "Patrick Rathje",
+            "email": "mail@patrickrathje.de",
+            "maintainer": true
+        }
+    ],
+    "dependencies":  [
+        {
+            "name": "mbedtls",
+            "version": "^2.16.4"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/prathje/exposure-notification.git"
+    }
+}
